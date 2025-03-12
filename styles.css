@@ -1,0 +1,74 @@
+styles
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/736x/c5/21/81/c52181f5212108d03720d77bdc81955a.jpg'); /* Ganti dengan gambar yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+}
+
+/* Container utama */
+main {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang semi-transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Navigasi */
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #555;
+    color: white;
+}
+
+/* Main Content */
+main h2 {
+    text-align: center;
+}
+
+/* Properti yang diminta */
+article p {
+    text-indent: 20px; /* Indentasi awal paragraf */
+    letter-spacing: 1px; /* Jarak antar huruf */
+    word-spacing: 5px; /* Jarak antar kata */
+    line-height: 1.6; /* Jarak antar baris */
+    white-space: normal; /* Agar teks tetap mengikuti layout */
+}
+
+/* Sidebar */
+aside {
+    margin-top: 20px;
+    background: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 10px;
+}
